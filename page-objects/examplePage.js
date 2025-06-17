@@ -8,6 +8,7 @@ export class ExamplePage {
     await this.page.goto("https://example.com");
   }
 
+  // Clicks on the More Information Link
   async clickMoreInfo() {
     await this.moreInfoLink.click();
   }
