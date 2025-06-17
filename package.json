@@ -1,0 +1,26 @@
+{
+  "name": "playwright-beginnings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:headless": "playwright test --headless"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csbala/Playwright-Beginnings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csbala/Playwright-Beginnings/issues"
+  },
+  "homepage": "https://github.com/csbala/Playwright-Beginnings#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.53.0"
+  }
+}
